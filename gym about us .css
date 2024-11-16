@@ -1,0 +1,311 @@
+@font-face {
+  font-family: Attila Sans Uniform;
+  src: url(/fonts/Attila/AttilaSansUniform-Black.woff2) format("woff2"), url(/fonts/Attila/AttilaSansUniform-Black.woff) format("woff");
+  font-display: swap;
+  font-weight: 900
+}
+
+@font-face {
+  font-family: 'Rubik';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v28/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8uDFHU5f4I.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: "acumin-pro";
+  src: url("https://use.typekit.net/af/46da36/00000000000000003b9acaf6/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/46da36/00000000000000003b9acaf6/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/46da36/00000000000000003b9acaf6/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "clarendon-text-pro";
+  src: url("https://use.typekit.net/af/7e1761/00000000000000007735a538/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/7e1761/00000000000000007735a538/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/7e1761/00000000000000007735a538/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "clarendon-urw";
+  src: url("https://use.typekit.net/af/6ce892/000000000000000077359ec7/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3") format("woff2"), url("https://use.typekit.net/af/6ce892/000000000000000077359ec7/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3") format("woff"), url("https://use.typekit.net/af/6ce892/000000000000000077359ec7/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 800;
+  font-stretch: normal;
+}
+
+nav>ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar1 {
+  /* background-image: linear-gradient(to right,rgb(135, 41, 179),rgb(167, 43, 129)); */
+  background-color: rgb(80, 103, 122);
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  z-index: 10;
+  /*   
+  box-shadow: inset 0 1px 4px 0 rgba(0, 0, 0, .3); */
+}
+
+nav ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+#li1 {
+  display: grid;
+  margin-left: 400px;
+  margin-top: 5px;
+  font-family: "clarendon-urw", serif;
+  position: relative;
+  width: max-content;
+}
+
+#li2 {
+  display: grid;
+  margin-left: 80px;
+  margin-top: 5px;
+  font-family: "clarendon-urw", serif;
+  position: relative;
+  width: max-content;
+}
+
+#li3 {
+  display: grid;
+  margin-left: 80px;
+  margin-top: 5px;
+  font-family: "clarendon-urw", serif;
+  position: relative;
+  width: max-content;
+}
+
+#li4 {
+  display: grid;
+  margin-left: 80px;
+  margin-top: 5px;
+  font-family: "clarendon-urw", serif;
+  position: relative;
+  width: max-content;
+}
+
+.underline {
+  width: 100%;
+  height: 5px;
+  position: absolute;
+  border-radius: 3px;
+  bottom: 0;
+  left: 0;
+  background: white;
+  overflow: hidden;
+}
+
+.underline span {
+  width: 15px;
+  height: 100%;
+  background:  rgb(80, 103, 122);
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  animation: moving 2s linear infinite;
+}
+
+@keyframes moving {
+  0% {
+    left: -20px;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(22, 18, 18);
+}
+
+.banner .slider {
+  position: absolute;
+  width: 200px;
+  height: 250px;
+  top: 50%;
+  left: 50%;
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+  animation: autoRun 15s linear infinite;
+  z-index: 2;
+}
+
+@keyframes autoRun {
+  from {
+    transform: perspective(1000px) rotateX(-36deg) rotateY(0deg);
+    /* x for upand down rotate dimensional */
+  }
+
+  to {
+    transform: perspective(1000px) rotateX(-46deg) rotateY(360deg);
+    /* y for rightside rotate  dimensional */
+  }
+}
+
+.banner .slider .item {
+  position: absolute;
+  inset: 0;
+  transform: rotateY(calc((var(--position) - 1) * (360deg / var(--quantity)))) translateZ(550px);
+  /* it calculate the three dimensional values */
+  /* total is 360deg  */
+}
+
+.banner .slider .item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.banner .content {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(1400px, 100vw);
+  height: max-content;
+  padding-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+
+/* .banner .content h1 {
+  font-family: 'Rubik', Helvetica, Arial, Lucida, sans-serif !important;
+  font-size: 16em;
+  line-height: 1em;
+  color: rgb(26, 22, 22);
+  position: relative;
+} */
+
+.banner .content h1::after {
+  position: absolute;
+  inset: 0 0 0 0;
+  content: attr(data-content);
+  z-index: 2;
+  -webkit-text-stroke: 2px rgb(231, 210, 210);
+  color: transparent;
+}
+
+/* .banner .content .author {
+      font-family: "acumin-pro", sans-serif;
+      text-align: right;
+      max-width: 200px;
+      z-index: 2;
+  } */
+
+.banner .content .model {
+  background-image: url('images/logo15.jpeg');
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-size: auto 120%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  z-index: 1;
+}
+
+.Achievements {
+  font-family: "clarendon-urw", serif;
+
+}
+
+.wrapper {
+  display: flex;
+  width: 700px;
+  height: 250px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-left: 300px;
+}
+
+.card {
+  flex: 1;
+  height: 300px;
+  transition: flex 0.5s ease;
+  cursor: pointer;
+  background-image: linear-gradient(to right, rgb(54, 50, 50), rgb(36, 31, 31));
+  /* background-color: rgb(68, 60, 60); */
+  color: rgb(231, 205, 131);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 700;
+
+}
+
+.card:hover {
+  flex: 5;
+}
+
+.Story {
+  font-family: "clarendon-text-pro", serif;
+  margin-left: 3vw;
+  font-weight: 700;
+}
+
+.journey {
+  font-family: "acumin-pro", sans-serif;
+  font-weight: 650;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  /* bottom: 0; */
+  background-image: linear-gradient(to right, #00093c, #2d0b00);
+  color: #ffffff;
+  padding: 100px 0 30px;
+  border-top-left-radius: 125px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+hr {
+  width: 90%;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+footer {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h5 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 700;
+}

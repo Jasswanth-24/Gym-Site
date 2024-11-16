@@ -1,0 +1,314 @@
+@font-face {
+  font-family: Attila Sans Uniform;
+  src: url(/fonts/Attila/AttilaSansUniform-Black.woff2) format("woff2"), url(/fonts/Attila/AttilaSansUniform-Black.woff) format("woff");
+  font-display: swap;
+  font-weight: 900
+}
+
+@font-face {
+  font-family: 'Rubik';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v28/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8uDFHU5f4I.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: "acumin-pro";
+  src: url("https://use.typekit.net/af/46da36/00000000000000003b9acaf6/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/46da36/00000000000000003b9acaf6/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/46da36/00000000000000003b9acaf6/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "clarendon-text-pro";
+  src: url("https://use.typekit.net/af/7e1761/00000000000000007735a538/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/7e1761/00000000000000007735a538/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/7e1761/00000000000000007735a538/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "clarendon-urw";
+  src: url("https://use.typekit.net/af/6ce892/000000000000000077359ec7/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3") format("woff2"), url("https://use.typekit.net/af/6ce892/000000000000000077359ec7/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3") format("woff"), url("https://use.typekit.net/af/6ce892/000000000000000077359ec7/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 800;
+  font-stretch: normal;
+}
+
+.aside {
+  display: flex;
+
+}
+
+.g24 {
+  color: rgb(255, 255, 255);
+  background-color: #ff0101;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: larger;
+  font-weight: 600;
+  border: 1px solid #ff0101;
+  height: 30px;
+}
+
+.gym {
+  color: rgb(255, 255, 255);
+  background-color: #0e0e0e;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: larger;
+  font-weight: 600;
+  border: 1px solid #0e0e0e;
+  height: 30px;
+}
+
+.headlogo {
+  height: 200px;
+  width: 450px;
+  margin-left: 300px;
+}
+
+.JoinNow>a {
+  background-color: #ff0101;
+  color: rgb(255, 255, 255);
+  border: 10px solid #ff0101;
+  height: 50px;
+  border-radius: 5px;
+  border-right-width: 20px;
+  padding-left: 20px;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
+  font-family: "acumin-pro", sans-serif;
+  margin-left: 200px;
+  text-decoration: none;    
+}
+.JoinNow>a:hover{
+  box-shadow: 1px 1px 20px #ff0101; 
+     /* filter: drop-shadow(1px 1px 20px #ff0101);  */
+
+}
+.membership>a {
+  background-color: #0e0e0e;
+  color: rgb(255, 255, 255);
+  border: 10px solid #0e0e0e;
+  height: 50px;
+  border-radius: 5px;
+  border-right-width: 20px;
+  padding-left: 20px;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
+  font-family: "acumin-pro", sans-serif;
+  margin-left: 10px;
+  text-decoration: none;
+}
+.membership>a:hover{
+  box-shadow: 1px 1px 20px #4b3b3b; 
+} 
+nav>ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar1 {
+   background-image: linear-gradient(to right, #ff0101, #4b3b3b); 
+/* background-image: linear-gradient(to right,rgb(211, 22, 116),rgb(89, 71, 155)); */
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  z-index: 2;
+}
+
+nav ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+#navinput1{
+  border-radius: 10px;
+  box-sizing: border-box;
+  border: 1px groove whitesmoke;
+  outline: none;
+  padding: 2px 2px 2px 40px;
+  border-radius: 4px;
+  font-size: medium;
+  background-image: url('images/search (1).svg');
+  background-position: 10px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-left: 90px;
+}
+/* #navinput1:focus{
+  width: 100%;
+} */
+#li1 {
+  display: grid;
+  margin-left: 400px;
+  margin-top: 5px;
+  font-family: "clarendon-urw", serif;
+}
+
+#li2 {
+  display: grid;
+  margin-left: 80px;
+  margin-top: 5px;
+  font-family: "clarendon-urw", serif;
+}
+
+#li3 {
+  display: grid;
+  margin-left: 80px;
+  margin-top: 5px;
+  font-family: "clarendon-urw", serif;
+}
+
+#li4 {
+  display: grid;
+  margin-left: 80px;
+  margin-top: 5px;
+  font-family: "clarendon-urw", serif;
+}
+
+.img1 {
+  display: flex;
+  margin-left: 50px;
+}
+
+.sentence1 {
+  font-family: "Attila Sans Uniform";
+  margin-left: 10px;
+  margin-right: 50px;
+  font-weight: 900
+  
+}
+
+.container {
+  display: flex;
+}
+
+.cimg1 {
+  display: flex;
+  margin-left: 50px;
+  font-family: "Attila Sans Uniform";
+}
+
+.cimg2 {
+  display: flex;
+  margin-left: 100px;
+  font-family: "Attila Sans Uniform";
+}
+.lostpassword{
+text-align: left;
+font-size: 14px;
+
+}
+.lostpassword>a{
+  text-decoration: none;
+  color: #d6f333;
+}
+/* .Enquire{
+  display: flex;
+  text-decoration: none;
+  background-color: #ff0101;
+  color: white;
+  border-radius: 5px;
+  border: 10px solid #ff0101;
+  font-family: 'Rubik', Helvetica, Arial, Lucida, sans-serif !important;
+  transition: top 0.3s ease 0.3s, transform 0.3s ease, opacity 0s ease 0.3s;
+  cursor: pointer;
+transition: background 1s;
+}
+.Enquire:hover{
+  box-shadow: 1px 1px 20px #ff0101; 
+} */
+.btn-field{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.btn-field button{
+flex-basis: 40%;
+background-color: #0bfa2b;
+color: #1d1c1b;
+height: 40px;
+border-radius: 20px;
+border: 0;
+outline: 0;
+cursor: pointer;
+transition: background 1s;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-field button.disable{
+background-color: #b6b6b6;
+color: #110e0e;
+}
+
+
+/* 
+.input-field{
+  max-height: 100vw;
+  transition: max-height 2.5s;
+  overflow: hidden;
+} */
+
+/* .Enquire:first-child {
+  top: 9px;
+  transform: rotate(-45deg);
+}
+
+.Enquire :nth-child(2) {
+  opacity: 0;
+}
+
+.Enquire :last-child {
+  top: -10px;
+  transform: rotate(5deg);
+} */
+.gymlogin {
+  color: white;
+  font-family: "clarendon-urw", serif;
+}
+
+.formimg1 {
+  z-index: -1;
+  background-color: white;
+  height: 650px;
+  width: 100%;
+}
+
+.form1 {
+  position: absolute;
+  top: 320%;
+  margin-left: 480px;
+  color: #f1eee8;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  /* bottom: 0; */
+  background-image: linear-gradient(to right, #00093c, #2d0b00);
+  color: #ffffff;
+  padding: 100px 0 30px;
+  border-top-left-radius: 125px;
+  font-size: 13px;
+  line-height: 20px;
+}
+hr{
+  width: 90%;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  margin: 20px 0 ;
+}
+footer{
+  color: #ffffff;
+  display: flex;
+justify-content: space-around;
+font-family: 'Times New Roman', Times, serif;
+}
+h5{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 700;
+}

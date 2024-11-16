@@ -1,0 +1,317 @@
+@font-face {
+  font-family: Attila Sans Uniform;
+  src: url(/fonts/Attila/AttilaSansUniform-Black.woff2) format("woff2"), url(/fonts/Attila/AttilaSansUniform-Black.woff) format("woff");
+  font-display: swap;
+  font-weight: 900
+}
+
+@font-face {
+  font-family: 'Rubik';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v28/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8uDFHU5f4I.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: "acumin-pro";
+  src: url("https://use.typekit.net/af/46da36/00000000000000003b9acaf6/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/46da36/00000000000000003b9acaf6/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/46da36/00000000000000003b9acaf6/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "clarendon-text-pro";
+  src: url("https://use.typekit.net/af/7e1761/00000000000000007735a538/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/7e1761/00000000000000007735a538/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/7e1761/00000000000000007735a538/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "clarendon-urw";
+  src: url("https://use.typekit.net/af/6ce892/000000000000000077359ec7/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3") format("woff2"), url("https://use.typekit.net/af/6ce892/000000000000000077359ec7/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3") format("woff"), url("https://use.typekit.net/af/6ce892/000000000000000077359ec7/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 800;
+  font-stretch: normal;
+}
+
+nav>ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar1 {
+  /* background-image: linear-gradient(to right,rgb(135, 41, 179),rgb(167, 43, 129)); */
+  background-color: rgb(24, 33, 54);
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  z-index: 2;
+  /* box-shadow: inset 0 1px 4px 2px rgba(0, 0, 0, .3); */
+}
+
+nav ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+#li1 {
+  display: grid;
+  margin-left: 400px;
+  margin-top: 5px;
+  font-family: "clarendon-urw", serif;
+  position: relative;
+  width: max-content;
+}
+
+#li1::after {
+  content: '';
+  border-radius: 100px;
+  height: 4px;
+  width: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 100ms;
+}
+
+#li1:hover::after {
+  width: 100%;
+  background-image: linear-gradient(to right, rgb(167, 43, 129), rgb(135, 41, 179));
+  /* filter: drop-shadow(1px 1px 20px #ff0101);  */
+  /* background-image: radial-gradient(rgb(135, 41, 179),rgb(167, 43, 129),rgb(42, 235, 100)); */
+}
+
+#li2 {
+  display: grid;
+  margin-left: 80px;
+  margin-top: 5px;
+  font-family: "clarendon-urw", serif;
+  position: relative;
+  width: max-content;
+}
+
+#li2::after {
+  content: '';
+  border-radius: 100px;
+  height: 4px;
+  width: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 100ms;
+}
+
+#li2:hover::after {
+  width: 100%;
+  background-image: linear-gradient(to right, rgb(167, 43, 129), rgb(135, 41, 179));
+  /* filter: drop-shadow(1px 1px 20px #ff0101);  */
+  /* background-image: radial-gradient(rgb(135, 41, 179),rgb(167, 43, 129),rgb(42, 235, 100)); */
+}
+
+#li3 {
+  display: grid;
+  margin-left: 80px;
+  margin-top: 5px;
+  font-family: "clarendon-urw", serif;
+  position: relative;
+  width: max-content;
+}
+
+#li3::after {
+  content: '';
+  border-radius: 100px;
+  height: 4px;
+  width: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 100ms;
+}
+
+#li3:hover::after {
+  width: 100%;
+  background-image: linear-gradient(to right, rgb(167, 43, 129), rgb(135, 41, 179));
+  /* filter: drop-shadow(1px 1px 20px #ff0101);  */
+  /* background-image: radial-gradient(rgb(135, 41, 179),rgb(167, 43, 129),rgb(42, 235, 100)); */
+}
+
+#li4 {
+  display: grid;
+  margin-left: 80px;
+  margin-top: 5px;
+  font-family: "clarendon-urw", serif;
+  position: relative;
+  width: max-content;
+}
+
+#li4::after {
+  content: '';
+  border-radius: 100px;
+  height: 4px;
+  width: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 100ms;
+}
+
+#li4:hover::after {
+  width: 100%;
+  background-image: linear-gradient(to right, rgb(167, 43, 129), rgb(135, 41, 179));
+  /* filter: drop-shadow(1px 1px 20px #ff0101);  */
+  /* background-image: radial-gradient(rgb(135, 41, 179),rgb(167, 43, 129),rgb(42, 235, 100)); */
+}
+
+.imgoverlay {
+  position: absolute;
+  background-size: cover;
+  /* top: 17%; */
+  background-image: linear-gradient(to right, rgb(24, 33, 54), rgb(24, 33, 54));
+  width: 57vw;
+  height: 53vw;
+  margin-left: 40vw;
+  border-top-left-radius: 100%;
+  border-bottom-left-radius: 100%;
+}
+
+.gymlogin {
+  color: white;
+  font-family: "clarendon-urw", serif;
+}
+
+.formimg1 {
+  z-index: -1;
+  background-color: white;
+  height: 650px;
+  width: 100%;
+}
+
+.form1 {
+  position: absolute;
+  top: 120%;
+  margin-left: 800px;
+  color: #f1eee8;
+}
+
+.lostpassword {
+  text-align: left;
+  font-size: 14px;
+
+}
+
+.lostpassword>a {
+  text-decoration: none;
+  color: #d6f333;
+}
+
+/* .Enquire{
+      display: flex;
+      text-decoration: none;
+      background-color: #ff0101;
+      color: white;
+      border-radius: 5px;
+      border: 10px solid #ff0101;
+      font-family: 'Rubik', Helvetica, Arial, Lucida, sans-serif !important;
+      transition: top 0.3s ease 0.3s, transform 0.3s ease, opacity 0s ease 0.3s;
+      cursor: pointer;
+    transition: background 1s;
+    }
+    .Enquire:hover{
+      box-shadow: 1px 1px 20px #ff0101; 
+    } */
+.btn-field {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn-field button {
+  flex-basis: 40%;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  height: 40px;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  transition: background 1s;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-field button.disable {
+  background-color: #b6b6b6;
+  color: #110e0e;
+}
+
+.contactsidepage{
+  background-image: linear-gradient(to right, rgb(24, 33, 54), rgb(24, 33, 54));
+  opacity: 0.;
+  width: 40%;
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 57vw;
+  height: 53vw;
+  margin-left: 26px;
+  border-top-right-radius: 100%;
+  border-bottom-right-radius: 100%;
+}
+.insidecp{
+  margin-top: 20%;
+}
+.Stay {
+  color: #ffffff;
+ text-decoration: none;
+  margin-left: 8vw;
+  font-family: "clarendon-urw", serif;
+}
+.head{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #f1eee8;
+  font-weight: 900;
+  margin-left: 8vw;
+}
+.details>p>a {
+  text-decoration: none;
+  margin-left: 8vw;
+}
+
+.details>p {
+  font-weight: 600;
+  margin-left: 8vw;
+  color: #f1eee8;
+}
+footer {
+  width: 100%;
+  position: absolute;
+  /* bottom: 0; */
+  background-image: linear-gradient(to right, #00093c, #2d0b00);
+  color: #ffffff;
+  padding: 100px 0 30px;
+  border-top-left-radius: 125px;
+  font-size: 13px;
+  line-height: 20px;
+}
+hr{
+  width: 90%;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  margin: 20px 0 ;
+}
+footer{
+  color: #ffffff;
+  display: flex;
+justify-content: space-around;
+font-family: 'Times New Roman', Times, serif;
+}
+h5{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 700;
+}
