@@ -40,6 +40,14 @@
   font-stretch: normal;
 }
 
+@font-face {
+                font-family: 'lyte';
+                font-style: normal;
+                font-weight: 100;
+                font-display: auto;
+                src: url('https://spectro.net/wp-content/uploads/2021/11/Helvetica-Light-1.ttf') format('truetype');
+            }
+
 .aside {
   display: flex;
 
@@ -176,7 +184,7 @@ nav ul li a {
 }
 
 .sentence1 {
-  font-family: "Attila Sans Uniform";
+font-family: "lyte", serif;
   margin-left: 10px;
   margin-right: 50px;
   font-weight: 900
